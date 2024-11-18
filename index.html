@@ -1,0 +1,230 @@
+<html>
+<head>
+    <title>Subhrabrata Biswas - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <style>
+        .sticky-nav {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-lg sticky-nav">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <!-- Primary Nav -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#home" class="py-5 px-3 text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="#experience" class="py-5 px-3 text-gray-700 hover:text-gray-900">Experience</a>
+                    <a href="#skills" class="py-5 px-3 text-gray-700 hover:text-gray-900">Skills</a>
+                    <a href="#achievements" class="py-5 px-3 text-gray-700 hover:text-gray-900">Achievements</a>
+                    <a href="#contact" class="py-5 px-3 text-gray-700 hover:text-gray-900">Contact</a>
+                </div>
+                <!-- Mobile Button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <a href="#home" class="block py-2 px-4 text-sm hover:bg-gray-200">Home</a>
+            <a href="#experience" class="block py-2 px-4 text-sm hover:bg-gray-200">Experience</a>
+            <a href="#skills" class="block py-2 px-4 text-sm hover:bg-gray-200">Skills</a>
+            <a href="#achievements" class="block py-2 px-4 text-sm hover:bg-gray-200">Achievements</a>
+            <a href="#contact" class="block py-2 px-4 text-sm hover:bg-gray-200">Contact</a>
+        </div>
+    </nav>
+    <!-- Home Section -->
+    <section id="home" class="bg-white p-8 shadow-lg rounded-lg mt-8 max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center md:items-start">
+            <div class="md:w-1/3 mb-8 md:mb-0">
+                <img src="photo.png" alt="Profile picture of Subhrabrata Biswas" class="w-full h-auto rounded-lg shadow-md">
+            </div>
+            <div class="md:w-2/3 md:pl-8">
+                <header class="text-center md:text-left mb-4">
+                    <h1 class="text-4xl font-bold text-gray-800">Subhrabrata Biswas</h1>
+                    <p class="text-xl text-gray-600">AWS Data Engineer | Python, PySpark and Full stack developer</p>
+                    <div class="mt-4">
+                        <a href="mailto:biswassubhrabrata@gmail.com" class="text-blue-500 hover:underline"><i class="fas fa-envelope"></i> biswassubhrabrata@gmail.com</a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/subhrabrata-biswas-984a311ba" class="text-blue-500 hover:underline"><i class="fab fa-linkedin"></i> linkedin.com/in/subhrabrata-biswas-984a311ba</a>
+                        <br>
+                        <a href="https://github.com/piklu111" class="text-blue-500 hover:underline"><i class="fab fa-github"></i> github.com/piklu111</a>
+                    </div>
+                </header>
+                <div class="bg-gray-100 p-4 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Summary</h2>
+                    <p class="text-gray-700">With over 3+ years of experience in the dynamic field of data, analytics full stack and API development, I am an inspiring mind adept at developing impactful solutions. My proficiency extends to leveraging key concepts of Data Engineering and ETL development using industry relevant tools and technologies. My passion lies in transforming data into actionable insights, driving innovation and excellence in the analytics realm.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="bg-white p-8 shadow-lg rounded-lg mt-8 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Key Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fab fa-python text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">Python</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-database text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">PySpark</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <img src="airflow.png" alt="Airflow logo" class="w-8 h-8 mr-4">
+                <span class="text-gray-700">Airflow</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-database text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">SQL</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <img src="glue.png" alt="AWS Glue logo" class="w-8 h-8 mr-4">
+                <span class="text-gray-700">AWS Glue</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-warehouse text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">Data Warehousing</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-chart-line text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">Data Analysis</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fab fa-aws text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">AWS (IAM, EC2, EMR, Redshift, ...)</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Flask_logo.svg" alt="Flask logo" class="w-8 h-8 mr-4">
+                <span class="text-gray-700">Flask</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fab fa-html5 text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">HTML</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fab fa-css3-alt text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">CSS</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fab fa-bootstrap text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">Bootstrap</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fab fa-git-alt text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">Git/Bitbucket</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-code-branch text-3xl text-blue-500 mr-4"></i>
+                <span class="text-gray-700">Version Control</span>
+            </div>
+        </div>
+    </section>
+    <!-- Experience Section -->
+    <section id="experience" class="bg-white p-8 shadow-lg rounded-lg mt-8 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Work Experience</h2>
+        <div class="space-y-8">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-gray-800">Project: Analytical solutions in the corporate domain</h3>
+                <p class="italic text-gray-600">Tata Consultancy Services | Developer</p>
+                <p class="text-gray-600">Duration: March'24 - Current</p>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Worked with a team of 4 members to build an analytic solution using application logs to analyse the application's live status and health of underline infrastructure.</li>
+                </ul>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-gray-800">Project: ONE MD Commercial Analytics</h3>
+                <p class="italic text-gray-600">Tata Consultancy Services | ETL developer</p>
+                <p class="text-gray-600">Duration: April'23 - Feb'24</p>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Worked on ETL pipeline development (Pull data from ERP and other source system and ingest to warehouse and data lake) using Glue and Airflow.</li>
+                    <li>Developed usecase capable of investigating AWS cloudWatch log group utilization and their contribution towards billing using Glue, Pyspark, Redshift, PowerBI.</li>
+                    <li>Developed usecase capable of analyses AWS access key age and send notification to users and business.</li>
+                    <li>Developed health check before batch job start using Flask, Python.</li>
+                    <li>Developed notification system capable of sending notification about upstream and downstream credentials and their expiration.</li>
+                    <li>Developed usecase that shutdown powerBI gateway server while this is not in use this helped to save lots of AWS cost.</li>
+                </ul>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-gray-800">Project: iDiscover Application</h3>
+                <p class="italic text-gray-600">Tata Consultancy Services | Developer and Support team member</p>
+                <p class="text-gray-600">Duration : Sept'21 - March'23</p>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Developed ETL pipeline that load data from different source (iConnect, sharepoint, ftp etc) location to data lake then warehouse.</li>
+                    <li>Developed use case that clears unnecessary log and data from talend execution server and stores to s3 based on metadata mapping table.</li>
+                    <li>Worked as an data analyst and resolved user or business raised data issue.</li>
+                    <li>Proactively identified and resolved critical issues, participated in major enhancements, and ensured smooth deployment through Change Management processes.</li>
+                </ul>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-gray-800">Project : Usecase for support tower</h3>
+                <p class="italic text-gray-600">Tata Consultancy Services | Systems Engineer</p>
+                <p class="text-gray-600">Duration : Sept'21 - Current</p>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li>Developed notification system capable of analysing support ticket and SLA and sent notification to the assignee and respective team.</li>
+                    <li>Developed use case capable of identifying attachments with email and moving those files to the respective location, from where ETL job used to pick the manual file sent by business.</li>
+                    <li>Developed script capable to reconcile data between source and target.</li>
+                    <li>Develop system health check usecase using ignio and python.</li>
+                    <li>Utilized Python scripting for major automation, following coding standards for reliability.</li>
+                    <li>Developed usecase capable of filling SLT from scheduling tool.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Achievements Section -->
+    <section id="achievements" class="bg-white p-8 shadow-lg rounded-lg mt-8 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Achievements</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-award text-3xl text-yellow-500 mr-4"></i>
+                <span class="text-gray-700">"Outstanding Contribution Certificate" from TCS (Project - JnJ) Under Technical Excellence category.</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-star text-3xl text-yellow-500 mr-4"></i>
+                <span class="text-gray-700">"Star of the month Award" from TCS (Project - JnJ) 16-Jan-2023.</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-certificate text-3xl text-yellow-500 mr-4"></i>
+                <span class="text-gray-700">"Certificate of Appreciation" from TCS (Project - JnJ) Under Technical Excellence category, Nov 2023.</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-star text-3xl text-yellow-500 mr-4"></i>
+                <span class="text-gray-700">"Star of the month Award" from TCS (Project - JnJ) 24-Jan-2024.</span>
+            </div>
+            <div class="flex items-center bg-gray-100 p-4 rounded-lg shadow-md">
+                <i class="fas fa-award text-3xl text-yellow-500 mr-4"></i>
+                <span class="text-gray-700">"Certificate of Excellence" from TCS (Project - JnJ) , Aug-2024.</span>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="bg-white p-8 shadow-lg rounded-lg mt-8 max-w-6xl mx-auto">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Contact</h2>
+        <p class="text-gray-700">Feel free to reach out to me via email or connect with me on LinkedIn and GitHub.</p>
+        <div class="mt-4">
+            <a href="mailto:biswassubhrabrata@gmail.com" class="text-blue-500 hover:underline"><i class="fas fa-envelope"></i> biswassubhrabrata@gmail.com</a>
+            <br>
+            <a href="https://www.linkedin.com/in/subhrabrata-biswas-984a311ba" class="text-blue-500 hover:underline"><i class="fab fa-linkedin"></i> linkedin.com/in/subhrabrata-biswas-984a311ba</a>
+            <br>
+            <a href="https://github.com/piklu111" class="text-blue-500 hover:underline"><i class="fab fa-github"></i> github.com/piklu111</a>
+        </div>
+    </section>
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>
